@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback | Student Portal</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="container">
+      <h1>My Student Portal</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="course.html">Courses</a>
+        <a href="#" class="active">Feedback</a>
+        <a href="grade.html">grade</a>
+        <a href="contact.html">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="feedback-section">
+      <h2>Feedback Form</h2>
+      <p>We"d love to hear your thoughts! Please fill out this form to share your feedback or suggestions.</p>
+
+      <form class="feedback-form" action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="course">Select Course</label>
+        <select id="course" name="course" required>
+          <option value="">-- Select a course --</option>
+          <option value="webdev">Web Development</option>
+          <option value="python">Python Programming</option>
+          <option value="dbms">Database Management</option>
+          <option value="networks">Computer Networks</option>
+        </select>
+
+        <label for="message">Your Feedback</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your feedback here..." required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+
+
+  <footer>
+    <p>© 2025 Himanshi Bisht — All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
